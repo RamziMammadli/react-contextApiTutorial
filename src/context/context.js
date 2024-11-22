@@ -24,3 +24,10 @@ export const ThemeProvider = ({children}) => {
 export const useTheme = () => {
     return useContext(ThemeContext)
 }
+
+
+//SIMPLE
+// import { createContext } from "react";
+
+
+// export const MainContex = createContext()

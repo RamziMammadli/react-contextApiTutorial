@@ -7,7 +7,7 @@ const Home = () => {
 
     const {theme, toggleTheme} = useTheme()
     
-
+    //SIMPLE const {db} = useContext(MainContext)    ----importlara diqqet , db ekrana yazdirin
 
   return (
     <div style={{backgroundColor:theme === 'light' ? 'white' : 'black', color:theme === 'light' ? 'black' : 'white'}}>
@@ -25,6 +25,7 @@ const Home = () => {
         <p>Alo</p>
         <p>Alo</p>
         <Header />
+
     </div>
   )
 }
